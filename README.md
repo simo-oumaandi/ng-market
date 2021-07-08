@@ -1,6 +1,6 @@
-# Angular App E-market
+# Angular App E-market SPA
 
-This Project Phrase On A Online Market For By Goods Using Angular Framwork With Bootstrap <br>
+This Project Single Page Application(SPA) Phrase On A Online Market For By Goods Using Angular Framwork With Bootstrap <br>
 For Run Project Run `npm install` or `npm i`
 
 ### Development server
