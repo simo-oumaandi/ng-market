@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-md-6 col-lg-3" *ngFor="let good of goods; index as i">
+            <div class="card mt-4" style="width: 18rem;">
+                <img [src]="good.photoUrl" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title display-6 offset-3">{{ good.name }}</h5>
+                    <p class="card-text">{{ good.price }} $</p>
+                    <button class="btn btn-primary" (click)="addToCart(i)">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

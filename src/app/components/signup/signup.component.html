@@ -1,0 +1,17 @@
+<div class="container">
+    <h2 class="display-3 offset-5">Signup</h2>
+    <form #frm="ngForm">
+        <input type="text" name="name" class="form-control mt-4" placeholder="Enter Your Full Name" required>
+        <input type="email" name="email" class="form-control mt-3" placeholder="Enter Your Address Email" required email>
+        <input type="password" name="password" class="form-control mt-3" placeholder="Enter Your Password" required minlength="6">
+        <input type="password" name="passwordConfirm" class="form-control mt-3" placeholder="Confirm Your Password" required>
+        <input type="text" name="address" class="form-control mt-3" placeholder="Enter Your Full Address" required>
+        <!-- <button class="btn btn-primary mt-3 offset-4 w-25" [disabled]="frm.invalid" >Create Account</button> -->
+
+        <input type="submit" value="Create Account" class="btn btn-primary mt-3 offset-4 w-25" >
+    </form>
+
+    <div class="alert alert-warning mt-5" role="alert">
+        <p class="display-7 offset-4">Already Have Account ? <a routerLink="/login">Login</a></p>
+    </div>
+</div>

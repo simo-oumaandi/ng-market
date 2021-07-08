@@ -1,0 +1,12 @@
+.navbar-brand {
+    color: gold;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color:orange;
+}
+
+#btnLogout {
+    
+}
